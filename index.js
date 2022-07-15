@@ -164,7 +164,7 @@ let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./Thakkuduitems/theme/cheems.xlsx'),
+document: fs.readFileSync('./Thakkuduitems/theme/Thakkudu.xlsx'),
 mimetype: docs,
 jpegThumbnail:buffer,
 mentions: [num],
@@ -205,10 +205,10 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Ok Bei 👋'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./Thakkuduitems/theme/cheems.xlsx'),
+document: fs.readFileSync('./Thakkuduitems/theme/Thakkudu.xlsx'),
 mimetype: docs,
 jpegThumbnail:buffer,
 mentions: [num],

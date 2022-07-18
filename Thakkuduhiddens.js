@@ -5524,7 +5524,7 @@ let latensi = speed() - timestamp
 neww = performance.now()
 oldd = performance.now()
 respon = `
-Ｒｅｓｐｏｎｓｅ Ｓｐｅｅｄ ; ${latensi.toFixed(4)} Ｓｅｃｏｎｄ \n ${oldd - neww} ｍｉｌｉｓｅｃｏｎｄｓ\n\nＲｕｎｔｉｍｅ : ${runtime(process.uptime())}
+PIИG = ${latensi.toFixed(4)} SΞC \n ${oldd - neww} ｍｉｌｉｓｅｃｏｎｄｓ\n\nＲｕｎｔｉｍｅ : ${runtime(process.uptime())}
 
 💻 ＳＥＲＶＥＲ ＩＮＦＯ
 ＲＡＭ＝ ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
